@@ -102,6 +102,11 @@ hr{
     color: var(--dark-grey);
     text-align: center;
 }
+
+.project-title {
+    margin-bottom: 0;
+    margin-top: 40px;
+}
 .heading-inverted {
     color: var(--primery-color);
 }
