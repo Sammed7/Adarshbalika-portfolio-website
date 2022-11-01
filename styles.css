@@ -35,6 +35,7 @@ hr{
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    align-items: center;
 }
 .link-primery {
     background-color: var(--primery-color);
@@ -52,11 +53,16 @@ hr{
 
 .list-non-bullet {
     list-style: none;
+    padding-inline-start: 0;
 }
 
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+.icons {
+    margin: 0 12px;
 }
 
 /** navigation **/
